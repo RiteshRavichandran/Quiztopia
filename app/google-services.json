@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "894326241123",
+    "project_id": "quiztopia-e6a4e",
+    "storage_bucket": "quiztopia-e6a4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894326241123:android:0ef6eea7799fef488a8556",
+        "android_client_info": {
+          "package_name": "com.example.quiztopia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894326241123-052srgj8vgj41mjlj28cp2mrh9bdv6nl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK0oMaO3022N6FbeHm2FG6FiiJuPc1xOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894326241123-052srgj8vgj41mjlj28cp2mrh9bdv6nl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
