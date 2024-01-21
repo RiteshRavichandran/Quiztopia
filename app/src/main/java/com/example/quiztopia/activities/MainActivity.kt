@@ -24,17 +24,17 @@ import java.util.Locale
 
 
 class MainActivity : AppCompatActivity() {
-    lateinit var actionBarDrawerToggle: ActionBarDrawerToggle
-    lateinit var adapter: QuizAdapter
+    private lateinit var actionBarDrawerToggle: ActionBarDrawerToggle
+    private lateinit var adapter: QuizAdapter
     private var quizList = mutableListOf<Quiz>()
-    lateinit var firestore: FirebaseFirestore
+    private lateinit var firestore: FirebaseFirestore
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setUpViews()
     }
 
-    fun setUpViews() {
+    private fun setUpViews() {
         setUpFireStore()
         setUpDrawerLayout()
         setUpRecyclerView()
@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity() {
     @SuppressLint("CutPasteId")
     fun setUpDrawerLayout() {
         setSupportActionBar(findViewById<MaterialToolbar>(R.id.appBar))
-        actionBarDrawerToggle = ActionBarDrawerToggle(this, findViewById<DrawerLayout>(R.id.mainDrawer),
+        actionBarDrawerToggle = ActionBarDrawerToggle(this, findViewById(R.id.mainDrawer),
             R.string.app_name,
             R.string.app_name
         )

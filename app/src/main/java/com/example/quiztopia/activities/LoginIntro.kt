@@ -19,7 +19,7 @@ class LoginIntro : AppCompatActivity() {
             redirect("MAIN")
         }
 
-        findViewById<Button>(R.id.btnGetStarted).setOnClickListener() {
+        findViewById<Button>(R.id.btnGetStarted).setOnClickListener {
             redirect("LOGIN")
         }
     }
